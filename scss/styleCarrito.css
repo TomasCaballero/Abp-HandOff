@@ -44,6 +44,8 @@ body {
 .navbar ul li.active a .text {
   color: rgb(242, 242, 242);
   transform: translateY(10px);
+  -webkit-text-decoration: 2px overline #73513D;
+          text-decoration: 2px overline #73513D;
 }
 .navbar ul li a {
   position: relative;
@@ -57,6 +59,7 @@ body {
 }
 .navbar ul li a .icon {
   position: relative;
+  bottom: 10px;
   display: block;
   line-height: 75px;
   font-size: 1.5rem;
@@ -66,6 +69,7 @@ body {
 }
 .navbar ul li a .text {
   position: absolute;
+  bottom: 40px;
   color: rgba(242, 242, 242, 0);
   font-weight: 400;
   font-size: 0.75em;
@@ -106,11 +110,39 @@ body {
 }
 
 .main {
-  padding: 20px;
+  margin-top: 7rem;
   color: #0D0D0D;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.main div {
-  margin-top: 5rem;
+.main #presentacionTrabajo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.main #presentacionTrabajo .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid 0px;
+  border-radius: 10px;
+  margin-left: 1.5rem;
+}
+.main #presentacionTrabajo .card .card-video {
+  width: 17rem;
+}
+.main #presentacionTrabajo .card .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+.main #presentacionTrabajo .card .card-body .card-title {
+  font-size: 20px;
 }
 
 .header {
@@ -139,7 +171,7 @@ body {
 }
 
 .relleno {
-  height: 80px;
+  height: 200px;
 }
 
 .tapa {
