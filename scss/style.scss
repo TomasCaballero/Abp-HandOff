@@ -126,10 +126,12 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     #presentacionTrabajo{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        align-items: center;
         justify-content: center;
         gap: 2rem;
         .card{
@@ -139,10 +141,8 @@ body{
             justify-content: center;
             border: solid 0px;
             border-radius: 10px;
-            margin-left: 1.5rem;
-            .card-video{
-                width: 17rem;
-            }
+            // margin-left: 1.5rem;
+            width: 20rem;
             .card-body{
                 display: flex;
                 flex-direction: column;
@@ -156,8 +156,31 @@ body{
                 // }
             }
         }
+        @media screen and (max-width: 800px){
+            .card{
+                width: 97vw;
+            }
+        }
+        .card-video-container{
+            width: 40rem;
+            .card-video{
+                width: 40rem;
+                border: solid 0px;
+                border-radius: 5px;
+            }
+        }
+        @media screen and (max-width: 800px){
+            .card-video-container{
+                width: 97vw;
+                .card-video{
+                    width: 97vw;
+                }
+            }
+        }
     }
 }
+
+
 .header{
     background-color: #261514;
     display: flex;
