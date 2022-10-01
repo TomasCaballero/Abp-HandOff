@@ -115,7 +115,160 @@ body{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 2rem;
+        gap: 3rem;
+        .cardContainer{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .cardIntegrantes{
+                background-image: url(../assets/img/inte4.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                object-fit: contain;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 10rem;
+                width: 10rem;
+                border: solid 1px black;
+                border-radius: 100%;
+            }
+            .cardIntegrantesBel{
+                background-image: url(../assets/img/inte4.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                object-fit: contain;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+                height: 240px;
+                width: 240px;
+                border: solid 1px black;
+                border-radius: 100%;
+                .cardTitle{
+                    margin-bottom: 35px;
+                    padding: 5px;
+                    background-color: rgba($color: #000000, $alpha: .5);
+                    color: white;
+                    border: solid 0px;
+                    border-radius: 20px;
+                }
+            }
+            .cardIntegrantesFran{
+                background-image: url(../assets/img/inte.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                object-fit: contain;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+                height: 240px;
+                width: 240px;
+                border: solid 0px black;
+                border-radius: 100%;
+                .cardTitle{
+                    margin-bottom: 35px;
+                    padding: 5px;
+                    background-color: rgba($color: #000000, $alpha: .5);
+                    color: white;
+                    border: solid 0px;
+                    border-radius: 20px;
+                }
+            }
+            .cardIntegrantesJuli{
+                background-image: url(../assets/img/inte4.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                object-fit: contain;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+                height: 240px;
+                width: 240px;
+                border: solid 0px black;
+                border-radius: 100%;
+                .cardTitle{
+                    margin-bottom: 35px;
+                    padding: 5px;
+                    background-color: rgba($color: #000000, $alpha: .5);
+                    color: white;
+                    border: solid 0px;
+                    border-radius: 20px;
+                }
+            }
+            .cardIntegrantesFeli{
+                background-image: url(../assets/img/inte4.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                object-fit: contain;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+                height: 240px;
+                width: 240px;
+                border: solid 0px black;
+                border-radius: 100%;
+                .cardTitle{
+                    margin-bottom: 35px;
+                    padding: 5px;
+                    background-color: rgba($color: #000000, $alpha: .5);
+                    color: white;
+                    border: solid 0px;
+                    border-radius: 20px;
+                }
+            }
+            .cardIntegrantesJuani{
+                background-image: url(../assets/img/inte.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                object-fit: contain;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+                height: 240px;
+                width: 240px;
+                border: solid 0px white;
+                border-radius: 100%;
+                .cardTitle{
+                    margin-bottom: 35px;
+                    padding: 5px;
+                    background-color: rgba($color: #000000, $alpha: .5);
+                    color: white;
+                    border: solid 0px;
+                    border-radius: 20px;
+                    text-align: center;
+                }
+            }
+            .cardIntegrantesTomi{
+                background-image: url(../assets/img/inte.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                object-fit: contain;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+                height: 240px;
+                width: 240px;
+                border: solid 0px black;
+                border-radius: 100%;
+                .cardTitle{
+                    margin-bottom: 30px;
+                    padding: 7px;
+                    background-color: rgba($color: #000000, $alpha: .5);
+                    color: white;
+                    border: solid 0px;
+                    border-radius: 20px;
+                    text-align: center;
+                }
+            }
+        }
         .card{
             display: flex;
             flex-direction: column;
@@ -123,6 +276,15 @@ body{
             justify-content: center;
             border: solid 0px;
             border-radius: 10px;
+            .imgContainer{
+                width: 10rem;
+                height: 10rem;
+                .card-img-top{
+                    border: solid 0px;
+                    border-radius: 100%;
+                }
+            }
+            
             .card-video{
                 width: 17rem;
             }
@@ -132,7 +294,7 @@ body{
                 align-items: center;
                 margin: 0;
                 .card-title{
-                    font-size: 20px;
+                    font-size: 15px;
                 }
                 // .card-text{
                     
