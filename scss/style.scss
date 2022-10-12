@@ -184,6 +184,7 @@ body{
             padding: 24px;
             width: 600px;
             scroll-snap-type: x mandatory;
+            scroll-snap-type: y mandatory;
             scroll-padding: 24px;
             border-radius: 8px;
             gap: 12px;
@@ -207,6 +208,18 @@ body{
                         }
                     }
                 }
+                .contenidoScrollTitulo{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 17rem;
+                    background-color: #261514;
+                    color: #F2F2F2;
+                    border-radius: 10px;
+                    box-shadow: 1px -1px 17px 4px rgba(0,0,0,0.57);
+                    -webkit-box-shadow: 1px -1px 17px 4px rgba(0,0,0,0.57);
+                    -moz-box-shadow: 1px -1px 17px 4px rgba(0,0,0,0.57);
+                }
             }
         }
         @media screen and (max-width: 800px){
@@ -219,11 +232,11 @@ body{
                 width: 350px;
             }
         }
-        @media screen and (min-width: 1000px){
-            .containerScroll::-webkit-scrollbar{
-                display: none;
-            }
-        }
+        // @media screen and (min-width: 200px){
+        //     .containerScroll::-webkit-scrollbar{
+        //         display: none;
+        //     }
+        // }
     }
 }
 
