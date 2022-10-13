@@ -178,6 +178,17 @@ body{
                 }
             }
         }
+        .investigacionContainer{
+            .tituloInvestigacion{
+                .miCard{
+                    .card-body{
+                        .card-title{
+                            background-color: #F2F2F2;
+                        } 
+                    }
+                }
+            }
+        }
         
         .containerScroll{
             display: flex;
@@ -226,7 +237,7 @@ body{
         }
         @media screen and (max-width: 800px){
             .containerScroll{
-                width: 430px;
+                width: 400px;
             }
         }
         @media screen and (max-width: 400px){

@@ -181,6 +181,9 @@ body {
     width: 97vw;
   }
 }
+.main #presentacionTrabajo .investigacionContainer .tituloInvestigacion .miCard .card-body .card-title {
+  background-color: #F2F2F2;
+}
 .main #presentacionTrabajo .containerScroll {
   display: flex;
   align-items: center;
@@ -225,7 +228,7 @@ body {
 }
 @media screen and (max-width: 800px) {
   .main #presentacionTrabajo .containerScroll {
-    width: 430px;
+    width: 400px;
   }
 }
 @media screen and (max-width: 400px) {
