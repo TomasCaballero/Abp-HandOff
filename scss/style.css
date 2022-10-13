@@ -132,6 +132,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: justify;
 }
 .main #presentacionTrabajo {
   display: flex;
@@ -159,7 +160,7 @@ body {
 .main #presentacionTrabajo .card .card-body .card-title {
   font-size: 20px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .main #presentacionTrabajo .card {
     width: 97vw;
   }
@@ -231,6 +232,20 @@ body {
   .main #presentacionTrabajo .containerScroll {
     width: 350px;
   }
+}
+.main #presentacionTrabajo .cardGrafContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main #presentacionTrabajo .divConclusion {
+  background-color: #73513D;
+}
+.main .cardGraf {
+  width: 400px;
+}
+.main .textoConclusion {
+  text-align: justify;
 }
 
 .header {
@@ -315,9 +330,17 @@ body {
   margin-top: 5px;
   margin-bottom: 2rem;
 }
-.divContacto .redes img {
+.divContacto .redes a {
+  text-decoration: none;
+}
+.divContacto .redes a img {
   margin-right: 7px;
   margin-left: 7px;
+}
+.divContacto .redes a .spanInstagram {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: #0D0D0D;
 }
 .divContacto .mapa {
   display: flex;

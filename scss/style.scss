@@ -127,6 +127,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: justify;
     #presentacionTrabajo{
         display: flex;
         flex-direction: row;
@@ -156,7 +157,7 @@ body{
                 // }
             }
         }
-        @media screen and (max-width: 800px){
+        @media screen and (max-width: 1024px){
             .card{
                 width: 97vw;
             }
@@ -177,6 +178,7 @@ body{
                 }
             }
         }
+        
         .containerScroll{
             display: flex;
             align-items: center;
@@ -232,11 +234,25 @@ body{
                 width: 350px;
             }
         }
+        .cardGrafContainer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
         // @media screen and (min-width: 200px){
         //     .containerScroll::-webkit-scrollbar{
         //         display: none;
         //     }
         // }
+        .divConclusion{
+            background-color: #73513D;
+        }
+    }
+    .cardGraf{
+        width: 400px;
+    }
+    .textoConclusion{
+        text-align: justify;
     }
 }
 
@@ -323,9 +339,16 @@ body{
         align-items: center;
         margin-top: 5px;
         margin-bottom: 2rem;
-        img{
-            margin-right: 7px;
-            margin-left: 7px;
+        a{
+            text-decoration: none;
+            img{
+                margin-right: 7px;
+                margin-left: 7px;
+            }
+            .spanInstagram{
+                text-decoration-line: none;
+                color:#0D0D0D;
+            }
         }
     }
     .mapa{
