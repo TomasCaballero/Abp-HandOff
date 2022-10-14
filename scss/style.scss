@@ -130,36 +130,44 @@ body{
     text-align: justify;
     #presentacionTrabajo{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         gap: 2rem;
-        .card{
+        .cardsArriba{
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
+            flex-wrap: wrap;
             align-items: center;
             justify-content: center;
-            border: solid 0px;
-            border-radius: 10px;
-            // margin-left: 1.5rem;
-            width: 20rem;
-            .card-body{
+            gap: 2rem;
+            .card{
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                margin: 0;
-                .card-title{
-                    font-size: 20px;
+                justify-content: center;
+                border: solid 0px;
+                border-radius: 10px;
+                // margin-left: 1.5rem;
+                width: 20rem;
+                .card-body{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin: 0;
+                    .card-title{
+                        font-size: 20px;
+                    }
+                    // .card-text{
+                        
+                    // }
                 }
-                // .card-text{
-                    
-                // }
             }
-        }
-        @media screen and (max-width: 1024px){
-            .card{
-                width: 97vw;
+            @media screen and (max-width: 1024px){
+                .card{
+                    width: 97vw;
+                }
             }
         }
         .card-video-container{
@@ -194,6 +202,7 @@ body{
             display: flex;
             align-items: center;
             overflow-x: scroll;
+            text-align: center;
             padding: 24px;
             width: 600px;
             scroll-snap-type: x mandatory;
@@ -247,8 +256,11 @@ body{
         }
         .cardGrafContainer{
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
+            flex-wrap: wrap;
             align-items: center;
+            justify-content: center;
+            gap: 2rem;
         }
         // @media screen and (min-width: 200px){
         //     .containerScroll::-webkit-scrollbar{
