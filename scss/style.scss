@@ -262,6 +262,11 @@ body{
             justify-content: center;
             gap: 2rem;
         }
+        @media all and (max-width: 400px){
+            .cardGrafContainer{
+                width: 97vw;
+            }
+        }
         // @media screen and (min-width: 200px){
         //     .containerScroll::-webkit-scrollbar{
         //         display: none;
